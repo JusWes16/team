@@ -1,7 +1,8 @@
+const users = ['Bob', 'Tom', 'Harry', 'Jerry'];
+
 const requestHandler = (req, res) =>{
     const url = req.url;
     const method = req.method;
-    const users = ['Bob', 'Tom', 'Harry', 'Jerry'];
     if(url === '/'){
         res.setHeader('Content-Type', 'text/html');
         res.write('<html>');
@@ -32,6 +33,7 @@ const requestHandler = (req, res) =>{
             const parsedBody = Buffer.concat(body).toString();
             let username = parsedBody.split('=')[1];
             console.log(username);
+            users.push(username);
         });
         res.statusCode = 302;
         res.setHeader('Location', '/');
