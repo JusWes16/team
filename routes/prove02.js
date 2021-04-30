@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-let books = [];
+// let books = [];
 
 router.post('/addBookInfo', (req, res, next) => {
+    let books = [];
     let bookInfo = {};
     bookInfo.title = req.body.bookTitle;
     bookInfo.description = req.body.bookSummary;
