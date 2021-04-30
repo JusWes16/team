@@ -13,9 +13,29 @@
   </div>
 </div>
 <div class="container">
-  
-</div>
-
-
+  <form action="/ta02/addUser" method="POST">
+    <label for="username">New User</label>
+    <input type="text" name="username">
+    <button type="submit">Submit</button>
+  </form>
+</div> 
+<% if(users.length > 0) { %>
+  <section id="userNames">
+    <ul>
+      <% users.forEach((user) => { %>
+        <li><%= user %></li>
+      <% }) %>
+    </ul>
+  </section>
+<% } else { %>
+  <h1>No Users Found!</h1>
+<% } %>
+<div class="container">
+  <form action="/ta02/removeUser" method="POST">
+    <label for="usernameRemove">Remove User</label>
+    <input type="text" name="usernameRemove">
+    <button type="submit">Submit</button>
+  </form>
+</div> 
 </body>
 </html>
