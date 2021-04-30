@@ -22,7 +22,7 @@
 .navbar + .jumbotron {
   margin-top: -20px; 
 }
-  
+
 .jumbotron .lang-logo {
   display: block;
   background: #B01302;
@@ -40,4 +40,94 @@
 .logo {
   width: 5rem;
   height: 5rem;
+}
+
+/* PROVE02 */
+
+#prove02 h1{
+  text-align: center;
+}
+
+#prove02 label, #prove02 input, #prove02 textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+#prove02 label{
+  font-size: 1.4em;
+}
+
+#prove02 input, #prove02 textarea{
+  border: solid 1px #0065BD;
+  border-radius: 3px;
+}
+
+#prove02 button{
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  height: 40px;
+  background-color: #0065BD;
+  color: white;
+  border: 1px solid rgb(97, 97, 97);
+  border-radius: 5px;
+  
+}
+
+#prove02 button:hover{
+  box-shadow: 2px 2px 4px black;
+  font-size: 1.1em;
+}
+
+#prove02 form{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#prove02 a {
+  display: block;
+  padding: 10px;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+#prove02_display h1{
+  text-align: center;
+  padding: 10px;
+}
+
+#prove02_display #cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#prove02_display #card{
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  background-color: burlywood;
+  box-shadow: 2px 2px 4px black;
+}
+
+#prove02_display #card h2{
+  text-align: center;
+  background-color: rgb(128, 74, 24);
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
+#prove02_display #card p{
+  margin: 0;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+#prove02_display a{
+  display: block;
+  text-align: right;
+  padding: 10px;
 }

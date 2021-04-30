@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../includes/header.ejs %>
+</head>
+
+<body id="prove02">
+  <% include ../includes/nav.ejs %>
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1><%= title %></h1>
+  </div>
+</div>
+<div class="container">
+    <h1>Add a Book!</h1>
+  <form action="/prove02/addBookInfo" method="POST">
+    <label for="bookTitle">Book Title:</label>
+    <input type="text" name="bookTitle">
+
+    <label for="bookSummary">Book Summary:</label>
+    <textarea name="bookSummary" cols="50" rows="10"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</div> 
+<a href="/prove02/bookDisplay">Book Catalog</a>
+</body>
+</html>
