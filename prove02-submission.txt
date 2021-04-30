@@ -1,0 +1,39 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+
+https://cse341-project-juswes.herokuapp.com/
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+https://github.com/JusWes16/team.git
+
+3. Briefly list and describe the elements of the application that are functioning. 
+
+My application has 2 functioning get requests and a functioning post request. The form works as it should and passed both a title and a description to a display using ejs. My app also allows you to add multiple books to the views where you can see all of them at once. 
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+As far as I know nothing in my app is not working how I expected. I did notice that when testing the app through the Heroku link the book list never clears and it just added upon with each submission even between browsers and computers. Not sure if this is right or how to make it work differently. 
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+I think the coolest thing that I learned from this assignment was just passing values. I enjoyed working with the parsed values and, in my method, passing them into objects and then and array and then finally to the view. I thought that was pretty cool. 
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+
+I think I would look into what I mentioned earlier and see if there is a way to change that. I’m not sure how or if it could even be done with how we are building the site at this point. 
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   4 - Meets requirements
+   5 - Shows creativity and excels above and beyond requirements
+
+5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+
+I completed everything that was required for the assignment. I also add the functionality for there to be more than one book added and listed in the view using an array of objects holding the title and the description. 
